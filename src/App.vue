@@ -16,6 +16,9 @@ import TaskInput from "@/components/TaskInput.vue";
 import TaskList from "@/components/TaskList.vue";
 import TaskFilter from "@/components/TaskFilter.vue";
 
+// немного юмора
+console.log(">>>", ("b" + "a" + +"a" + "a").toLowerCase());
+
 export default defineComponent({
   name: "App",
 
